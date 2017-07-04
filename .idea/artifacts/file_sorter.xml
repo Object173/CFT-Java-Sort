@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="file_sorter">
+    <output-path>$PROJECT_DIR$/out/artifacts/file_sorter</output-path>
+    <root id="archive" name="file_sorter.jar">
+      <element id="module-output" name="sort" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
