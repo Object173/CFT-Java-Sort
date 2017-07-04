@@ -31,7 +31,6 @@ public abstract class SorterHelper {
         if(inFile == null || outFile == null) {
             return Result.INVALID_ARGS;
         }
-
         try {
             final List<Object> data = parse(FileHelper.readFile(inFile));
             if(data == null) {
